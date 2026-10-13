@@ -1,0 +1,7 @@
+# Shared deployment defaults.
+# Override these values for each environment as needed.
+
+app_name: portfolio
+backend_port: 5001
+frontend_root: /var/www/html
+backend_service_name: portfolio-backend

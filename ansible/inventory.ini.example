@@ -1,0 +1,9 @@
+[frontend]
+worker1 ansible_host=FRONTEND_PRIVATE_IP
+
+[backend]
+worker2 ansible_host=BACKEND_PRIVATE_IP
+
+[webservers:children]
+frontend
+backend
